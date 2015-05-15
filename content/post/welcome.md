@@ -1,9 +1,9 @@
 +++
 date = "2015-05-15T23:46:05+02:00"
 description = "Greeting Message"
-tags = ["computer science", "development"]
+tags = ["computer-science", "development"]
 title = "welcome"
-topics = ["Development", "golang"]
+topics = ["Development", "Computer-Science", "Coding"]
 
 +++
 
