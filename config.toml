@@ -1,3 +1,4 @@
+baseurl = "http://herveDarritchon.github.io/"
 languageCode = "en-gb"
 title = "Make it work, Make it right, Make it fast"
 theme= "spf13"
