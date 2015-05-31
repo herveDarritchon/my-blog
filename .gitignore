@@ -4,6 +4,7 @@
 /.project
 /RUNNING_PID
 /.settings
+.wercker
 
 .merge_file*
 .sass-cache

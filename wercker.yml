@@ -4,5 +4,4 @@ build:
     - arjen/hugo-build:
         version: 0.13
         theme: hd-theme
-        config: config.toml
-        flags: --disableSitemap=true
+        flags: --buildDrafts=true
