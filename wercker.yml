@@ -2,6 +2,5 @@ box: python:wheezy
 build:
   steps:
     - arjen/hugo-build:
-        version: 0.14
         theme: hd-theme
         flags: --disableSitemap=true
