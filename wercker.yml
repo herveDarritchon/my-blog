@@ -1,7 +1,7 @@
-box: wercker/default
+box: python:wheezy
 build:
   steps:
     - arjen/hugo-build:
-        version: 0.13
+        version: 0.14
         theme: hd-theme
-        flags: --buildDrafts=true
+        flags: --disableSitemap=true
