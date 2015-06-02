@@ -4,3 +4,9 @@ build:
     - arjen/hugo-build:
         theme: hd-theme
         flags: --disableSitemap=true
+deploy:
+  steps:
+    - lukevivier/gh-pages@0.2.1:
+        token: $GIT_TOKEN
+        domain: hervedarritchon.github.io
+        basedir: public
